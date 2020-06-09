@@ -82,6 +82,11 @@ p {
     border: none;
 }
 
+.btn:hover {
+    background: hsl(179, 62%, 43%);
+    color: white;
+}
+
 footer {
     background: black;
     color: white;
