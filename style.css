@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: teal;
+    padding: 98px 341px;
+}
+
+header {
+    background: white;
+    padding: 46px 40px;
+}
+
+header h1 {
+    color: hsl(179, 62%, 43%);
+    padding-bottom: 30px;
+    padding-left: 17px;
+}
+
+header h2 {
+    color: greenyellow;
+    padding-left: 17px;
+    padding-bottom: 9px;
+}
+
+header p {
+    padding-top: 7px;
+    padding-left: 17px;
+    color: hsl(218, 22%, 67%);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.component1 {
+    background: cyan;
+    padding: 37px 76px;
+    color: white;
+    font-size: 16px;
+    padding-left: 40px;
+}
+
+.component1 h1,
+h2 {
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+.component1 span {
+    font-size: 28px;
+}
+
+.component1 p {
+    padding-bottom: 35px;
+}
+
+.component2 {
+    background: deepskyblue;
+    padding: 40px 75px;
+    color: white;
+}
+
+.component2 h1,
+p {
+    font-size: 16px;
+}
+
+.btn {
+    padding: 10px 77px;
+    background-color: greenyellow;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+}
+
+footer {
+    background: black;
+    color: white;
+    font-size: 28px;
+    padding: 40px 30px;
+}
+
+.attribution {
+    font-size: 28px;
+}
+
+@media query {}
